@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "co.banglabs.weatherapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "co.banglabs.weatherapp"
