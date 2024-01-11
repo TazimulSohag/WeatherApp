@@ -8,8 +8,7 @@
     android:focusable="true"
     android:gravity="bottom"
     android:layoutDirection="locale"
-    android:orientation="vertical"
-    tools:context=".ui.activity.MainActivity">
+    android:orientation="vertical">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/close_button"
@@ -18,7 +17,7 @@
         android:layout_gravity="center_horizontal"
         app:backgroundTint="?attr/colorPrimary"
         app:fabSize="mini"
-        app:srcCompat="@drawable/ic_close_black_24dp"
+        app:srcCompat="24dp"
         app:tint="?attr/colorControlNormal" />
 
 
@@ -34,7 +33,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/spacing_xlarge"
+            android:layout_marginTop="20dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -42,27 +41,27 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:orientation="horizontal"
-                android:padding="@dimen/spacing_large">
+                android:padding="20dp">
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                     android:id="@+id/english_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:layout_marginBottom="10dp"
                     android:gravity="center"
                     android:text="@string/english_label"
                     android:textAllCaps="false"
                     app:backgroundTint="@color/grey_10" />
 
                 <View
-                    android:layout_width="@dimen/spacing_medium"
+                    android:layout_width="0dp"
                     android:layout_height="0dp" />
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                     android:id="@+id/persian_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:layout_marginBottom="10dp"
                     android:gravity="center"
                     android:text="@string/persian_label"
                     android:textAllCaps="false"
@@ -88,7 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="@dimen/spacing_large">
+                    android:padding="20dp">
 
                     <LinearLayout
                         android:id="@+id/toggle_info_layout"
@@ -107,15 +106,14 @@
                             android:textStyle="bold" />
 
                         <View
-                            android:layout_width="@dimen/spacing_large"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content" />
 
                         <ImageButton
                             android:id="@+id/toggle_info_button"
                             android:layout_width="?attr/actionBarSize"
                             android:layout_height="?attr/actionBarSize"
-                            android:background="?attr/selectableItemBackgroundBorderless"
-                            app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+                            android:background="?attr/selectableItemBackgroundBorderless" />
 
                     </LinearLayout>
 
@@ -133,36 +131,24 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
-                        <TextView
-                            style="@style/HeadlineTextStyle"
-                            android:text="@string/developer_info_title" />
 
                         <TextView
                             android:id="@+id/text_developer_info"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
-                        <TextView
-                            style="@style/HeadlineTextStyle"
-                            android:text="@string/design_api_title" />
 
                         <TextView
                             android:id="@+id/text_design_api"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
-                        <TextView
-                            style="@style/HeadlineTextStyle"
-                            android:text="@string/libraries_title" />
 
                         <TextView
                             android:id="@+id/text_libraries"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
-                        <TextView
-                            style="@style/HeadlineTextStyle"
-                            android:text="@string/license_title" />
 
                         <TextView
                             android:id="@+id/text_license"
