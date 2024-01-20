@@ -39,19 +39,14 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    implementation ("com.airbnb.android:lottie:3.4.1")
-    implementation ("com.github.bkhezry:MaterialSearchView:1.6.0")
-    implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation("com.airbnb.android:lottie:3.4.1")
+    implementation("com.github.bkhezry:MaterialSearchView:1.6.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 
-
-
-
-
-
-
-
-
-
+// Add the Firebase Crashlytics SDK.
+    implementation("com.google.firebase:firebase-crashlytics:18.6.0")
+    // Recommended: Add the Google Analytics SDK.
+    implementation("com.google.firebase:firebase-analytics:21.5.0")
 
 
 }
